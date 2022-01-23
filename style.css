@@ -1,3 +1,79 @@
 body{
+    margin: 0;
+    font-family: font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;; */
+
+        }
+
+.home-page{
+   background-image: url(images/top-banner.png);
+   background-repeat: no-repeat;
+
+    display: flex;
+
+
+}
+
+.dream-big{
+    display: flex;
+
+}
+
+h1{
+    font-size: 3em;
+}
+
+.background-color{
+    color: orange;
     
 }
+
+.common-feature{
+    
+    width: 40%;
+
+    
+    
+}
+
+.common-feature p{
+    text-align: justify;
+}
+
+.image-part img{
+    width: 95%;
+    padding-left: 25%;
+    padding-top: 14%;
+    
+    
+}
+
+.written-part{
+    padding-left: 5%;
+}
+
+.written-part a {
+    
+    text-decoration: none;
+    background-image: linear-gradient(to right, green, red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.written-part p{
+    margin-bottom: 30px;
+}
+
+.second-image-part img{
+    width: 95%;
+    padding-left: 10%;
+    padding-top: 14%;
+
+}
+
+
